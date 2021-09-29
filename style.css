@@ -78,10 +78,12 @@ a {
 
 .a-dark {
     color: var(--dark-primary-color);
+    
 }
 
 .a-dark:hover {
-    color: grey;
+    border-bottom: 1px solid var(--dark-text-color);
+    color: var(--dark-text-color);
 }
 
 a:hover {
